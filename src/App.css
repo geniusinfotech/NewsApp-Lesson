@@ -246,3 +246,39 @@
         opacity: 1.0;
     }
 }
+
+
+/* darkMode Btn*/
+.app {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: inherit;
+    color: inherit;
+}
+
+.togglebtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* NewsItem Css */
+.img-size{
+    max-height: 250px !important;
+}
