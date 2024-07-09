@@ -26,7 +26,6 @@ export default class App extends Component {
       <Router>
         <div className={`app ${themeClass}`}>
           <Navbar isDarkMode={isDarkMode} toggleDarkMode={this.toggleDarkMode} />
-
           <Routes>
             <Route path='/' element={<News key="general" pageSize={6} country={"in"} category={"general"} />} />
             <Route path='/technology' element={<News key="technology" pageSize={6} country={"in"} category={"technology"} />} />
